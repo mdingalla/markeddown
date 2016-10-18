@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{E4ACA93B-D3DE-4557-B069-F1DB42925A4B}"
 EndProject
@@ -80,6 +80,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Plugin.ExchangeRate.EcbExchange", "Plugins\Nop.Plugin.ExchangeRate.EcbExchange\Nop.Plugin.ExchangeRate.EcbExchange.csproj", "{6DF00C56-EC49-4AB8-8B29-404E3694026C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Plugin.Pickup.PickupInStore", "Plugins\Nop.Plugin.Pickup.PickupInStore\Nop.Plugin.Pickup.PickupInStore.csproj", "{06C88D0B-A276-4D3D-8BE5-7C58BF3072E3}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "nopMarkedDown", "nopMarkedDown\nopMarkedDown.ccproj", "{30A9B288-B1F2-49C7-AF54-251099026A7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -445,6 +447,18 @@ Global
 		{06C88D0B-A276-4D3D-8BE5-7C58BF3072E3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{06C88D0B-A276-4D3D-8BE5-7C58BF3072E3}.Release|x86.ActiveCfg = Release|Any CPU
 		{06C88D0B-A276-4D3D-8BE5-7C58BF3072E3}.Release|x86.Build.0 = Release|Any CPU
+		{30A9B288-B1F2-49C7-AF54-251099026A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A9B288-B1F2-49C7-AF54-251099026A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A9B288-B1F2-49C7-AF54-251099026A7C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{30A9B288-B1F2-49C7-AF54-251099026A7C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{30A9B288-B1F2-49C7-AF54-251099026A7C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{30A9B288-B1F2-49C7-AF54-251099026A7C}.Debug|x86.Build.0 = Debug|Any CPU
+		{30A9B288-B1F2-49C7-AF54-251099026A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A9B288-B1F2-49C7-AF54-251099026A7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30A9B288-B1F2-49C7-AF54-251099026A7C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{30A9B288-B1F2-49C7-AF54-251099026A7C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{30A9B288-B1F2-49C7-AF54-251099026A7C}.Release|x86.ActiveCfg = Release|Any CPU
+		{30A9B288-B1F2-49C7-AF54-251099026A7C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

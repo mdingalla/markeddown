@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="nopMarkedDown" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="Nop.Web">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=portalvhdsfr57smjhkq4xd;AccountKey=E8RMF4PgSoDDVlawBQHjaVUx7IFg95dB0433E02vF66Ig/62UqGfZ8quGjSGT6G1AuqwT0b/OTTmn04a/YJ2EQ==" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="mdingalla" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEBd2+t3osxG2T1nyqsMK7jMwDQYJKoZIhvcNAQEBBQAEggEAQkPf1HqFpno1ZcxZUPnPrPQYaakzUNR0vVin81H9oBDngWbrUtP4Kw8Dh7QHhFUP5Tr96s66RB4SSNT8GN1N0VR2XClWRe9cUv7FT0CoCn9LKf8dxe1LYcmWkK53gJz3JZ7zoBma32CXcFi+KBp6a1PCXWX0XF9A2eZWx45oI234PA1Lam5syeIxtUFAhX+j+nghJEiTXwXi2UwcDNnfj+Uqm+X9Xl2Sjjlrvdayhuf2gh92Om8TPCsba2rM5/7JU3KKKPIKi+6k8PccOkqH+yRCqVNNY/UF9c/ce6SF8xbALqRroN/jO4bZHINOzctMR3lnjrvgtxmK8YBm1zpjpDAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECIoowJIcR9mJgBAbq9wsCSgqAZ47KQNLz52a" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2017-10-18T23:59:59.0000000+08:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="F96185E21A3295B8017B2BA24E4B33F9475367A6" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>

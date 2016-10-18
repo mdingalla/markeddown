@@ -1,0 +1,2 @@
+DataProvider: sqlserver
+DataConnectionString: Data Source=upzq6tivan.database.windows.net;Initial Catalog=MarkedDown;Integrated Security=False;Persist Security Info=False;User ID=mark.dave.i.ingalla;Password=P@ssw0rd0n123

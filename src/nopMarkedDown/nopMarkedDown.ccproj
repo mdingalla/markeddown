@@ -50,6 +50,7 @@
     <DiagnosticsConfiguration Include="Nop.WebContent\diagnostics.wadcfgx" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Nop.WebContent\" />
     <Folder Include="Profiles" />
   </ItemGroup>
   <ItemGroup>
